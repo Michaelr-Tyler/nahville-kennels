@@ -13,11 +13,6 @@ export const CustomerList = () => {
          }, []
     )
 
-    useEffect(
-        () => {},
-         [customers] 
-    )
-
     return (
         <article className="customers">
             {
