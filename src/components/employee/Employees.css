@@ -1,8 +1,15 @@
-.employees {
+.flex {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;   
+}
+
+/* .employees {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-}
+} */
 
 .employee {
     flex-basis: 28%;

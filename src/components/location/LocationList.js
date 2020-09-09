@@ -14,10 +14,6 @@ export const LocationList = () => {
          []
     )
 
-    useEffect(
-        () => { 
-         } ,
-         [locations])
 
     return (
         <article className="locations">
@@ -27,4 +23,4 @@ export const LocationList = () => {
         </article>
     )
     
-}
+} 
