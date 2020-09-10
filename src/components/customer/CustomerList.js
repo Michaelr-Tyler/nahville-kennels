@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react"
 import { CustomerContext } from "./CustomerProvider"
-import { Customer } from "./Customers"
-import "./Customers.css"
+import { Customer } from "./Customer"
+import "./Customer.css"
 
 
 export const CustomerList = () => {
